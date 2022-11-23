@@ -90,8 +90,8 @@
   color: #F8F0E3;
   font-size: 4vh;
   font-family: 'TS Block Bold', sans-serif;
-  margin: auto;
-  padding: 65px;
+  margin: -10px;
+  padding: 60px;
   text-align: center;
 }
 
@@ -679,7 +679,7 @@
   let browserHeight;
 
   // Specify the number of snowflakes you want visible
-  let numberOfSnowflakes = 100;
+  let numberOfSnowflakes = 75;
 
   // Flag to reset the position of the snowflakes
   let resetPosition = false;
@@ -806,7 +806,7 @@
   //
   // Responsible for moving each snowflake by calling its update function
   //
-  let frames_per_second = 120;
+  let frames_per_second = 50;
   let frame_interval = 1000 / frames_per_second;
 
   let previousTime = performance.now();
