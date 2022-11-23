@@ -14,30 +14,31 @@
     overflow: hidden;
     overflow-y: hidden;
     overflow-x: hidden;
-    display: flex;
-    justify-content: center;
-    font-family: 'TS Block Bold', sans-serif;
-    color: #F8F0E3;
-    width: 150px;
-    height: 100%;
-    margin: 350px 745px;
-    align-content: center;
-    vertical-align: center;
-    -webkit-touch-callout: none;
-    -webkit-user-select: none;
-    -khtml-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
   }
+.txt-div {
+  position: absolute;
+  top: 50%;
+  left: 55%;
+  transform: translateX(-50%) translateY(-50%);
 
+}
+.txt {
+  color: #F8F0E3;
+  font-family: 'TS Block Bold', sans-serif;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
 
 </style>
 
 <body>
 
-
-  <h1 class="body">Sorry, your device is not supported.</h1>
-
+<div class="txt-div">
+  <h1 class="txt">Sorry, your device is not supported.</h1>
+</div>
 </body>
 </html>
