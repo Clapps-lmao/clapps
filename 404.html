@@ -2,8 +2,8 @@
 <html lang="en">
 <head>
   <link href="https://fonts.cdnfonts.com/css/ts-block" rel="stylesheet">
-    <meta charset="UTF-8">
-    <title>404</title>
+  <meta charset="UTF-8">
+  <title>404</title>
 </head>
 
 <style>
@@ -12,36 +12,20 @@
   body {
     background-color: black;
     overflow: hidden;
-    overflow-y: hidden; 
+    overflow-y: hidden;
     overflow-x: hidden;
   }
-  
-  #overlayer {
-    display: flex;
-    justify-content: center;
-    width:100%;
-    height:100%;
-    position:fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    z-index: 2;
-    align-content: center;
-    background: black;
-  }
+  .txt-div {
+    position: absolute;
+    top: 50%;
+    left: 52%;
+    width: 450px;
+    transform: translateX(-50%) translateY(-50%);
 
-  .clapps-preload {
-    display: flex;
-    justify-content: center;
-    font-family: 'TS Block Bold', sans-serif;
+  }
+  .txt {
     color: #F8F0E3;
-    width: 400px;
-    height: 100%;
-    margin: 350px 745px;
-    text-align: center;
-    letter-spacing: 2px;
-    vertical-align: center;
+    font-family: 'TS Block Bold', sans-serif;
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -khtml-user-select: none;
@@ -50,38 +34,12 @@
     user-select: none;
   }
 
-  .loader-inner {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    vertical-align: top;
-    width: 100%;
-  }
-
-  .loader {
-    display: flex;
-    justify-content: center;
-    align-content: center;
-    width: 30px;
-    height: 30px;
-    position: absolute;
-    z-index:3;
-    top: 50%;
-  }
-
-
-
-
-
 </style>
 
 <body>
 
-<div id="overlayer">
-  <h1 class="clapps-preload">This isn't the page you're looking for!</h1>
-</div>
-<div class="loader">
-  <span class="loader-inner"></span>
+<div class="txt-div">
+  <h1 class="txt">This isn't the page you're looking for!</h1>
 </div>
 </body>
 </html>
